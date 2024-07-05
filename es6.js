@@ -241,6 +241,26 @@ console.log(isNaN("Hello"));
 // msg.message();
 
 
+// class
+
+class Student {
+    constructor(name, year) {
+      this.name = name;
+      this.year = year;
+    }
+    age(x) {
+      return x - this.year;
+    }
+  }
+  
+  const date = new Date();
+  const year1 = date.getFullYear();
+  
+  const stu = new Student("Abish", 2003);
+  console.log(stu.age(year1))
+
+
+
 
 
 

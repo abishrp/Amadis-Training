@@ -7,6 +7,6 @@
 
 </head>
 <body>
-    <script src="localstorage.js"></script>
+    <script src="localstorage_and_sessionstorage.js"></script>
 </body>
 </html>
